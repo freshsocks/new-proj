@@ -55,7 +55,7 @@ If you want to [customize some of the settings in Gumby](http://gumbyframework.c
 compass compile
 ```
 > **NOTE**
-> <br>
+> <br><br>
 > The css file that Gumby generates uses __Open Sans__ as the default font through an ``` @import ``` targeting Google Fonts. However, the URL is always incomplete upon compiling (missing an "http:" prefix), resulting in a missing font.
-> <br>
-> __I have taken the liberty of adding the "http:" prefix to the ``` @import ``` on the first line of ``` /public/css/gumby.css ``` so the fonts load properly.__
+> <br><br>
+> _I have taken the liberty of adding the "http:" prefix to the ``` @import ``` on the first line of ``` /public/css/gumby.css ``` so the fonts load properly._
