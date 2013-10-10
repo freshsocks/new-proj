@@ -85,6 +85,10 @@ io.sockets.on('connection', function (socket) {
 	// 	socket.emit('event complete', parsed );
 	// 	});
 	// });
+
+	socket.on('ready', function(){
+		console.log('Client page has loaded!')
+	})
 });
 
 
