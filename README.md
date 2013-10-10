@@ -104,7 +104,7 @@ Errrg.... I think it might be the --rebase command.
 
 
 ```
-curl -u 'stevefloat:PASS' https://api.github.com/user/repos -d '{"name":"new-proj"}'
+curl -u 'stevefloat:flldlk1019' https://api.github.com/user/repos -d '{"name":"new-proj"}'
 cd ~/git
 git init new-proj
 cd new-proj
@@ -119,3 +119,31 @@ git push origin master
 ```
 
 > No ```--rebase``` this time.
+
+This time, it did work. No prompt, set up everything correctly.
+
+I was able to make a commit to the base app _freshstart_, pull it into the _new-proj_ app, and then push the changes to the new-proj master branch. **SUCCESS**!
+
+The only problem is that I wasn't able to pull the changes from _freshstart_ without getting the damn prompt again.
+
+I edited the ```.git/config``` file directly to reflect the --no-edit config option.
+```
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = false
+	mergeoptions = --no-edit
+```
+For some reason, ```git config --global core.mergeoptions --no-edit``` isn't actually modifying the config file like its supposed to.
+
+After trying another push/pull, I **STILL** got prompted for a commit message when I ```git pull base master```
+
+Finally, I could only get it working using the ```--no-edit``` flag on the git pull. So, like this:
+```
+git pull --no-edit base master
+```
+
+I don't like having to add that flag. 
