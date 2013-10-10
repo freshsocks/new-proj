@@ -13,13 +13,6 @@ var routes = require('./routes')
   , path = require('path')
   , util = require('util')
   , _ = require('underscore')
-  , twitter = require('twitter')
-  , twit = new twitter({
-    	consumer_key: 'mYVqwQEonkbBww11sMg',
-    	consumer_secret: 'BVRyXDr7PxPkwh74cM0K8DTQaxmiNCvNGdQ80mCE8',
-    	access_token_key: '86416702-duXu6pIFjFzxq2yN2V71jsydxXo10hJhOlxCw1mIJ',
-    	access_token_secret: 'w6VC6eBJUsmRn51mZk5n0hj1A4Dd6dS4FMVo1lKNA'
-	});
 
 /**
  * Create app, server, and socket.io

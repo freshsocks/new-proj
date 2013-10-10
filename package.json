@@ -18,6 +18,8 @@
     "express": "3.3.5",
     "jade": "*",
     "stylus": "*",
-    "socket.io": "~0.9.16"
+    "socket.io": "~0.9.16",
+    "underscore": "~1.5.2",
+    "twitter": "~0.2.3"
   }
 }
