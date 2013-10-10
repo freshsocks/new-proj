@@ -73,3 +73,16 @@ git pull --no-edit base master
 ```
 
 I don't like having to add that flag. I'm going to restart my computer and see if anything changes. She's been through a lot today.
+
+### Asking for username/password on push
+
+I don't like having to type in my username/pass everytime I push. Let's change that. I think I need to use ```git@github.com:stevefloat/new-proj.git``` in order to avoid that. The problem is that my repo is set to push to the ```https://``` address.
+
+It can be changed in the ```.git/config``` file, like so:
+```
+[remote "origin"]
+	git@github.com:stevefloat/new-proj.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+```
+
+...which _should_ work. But I want to do this codically (is that a word?)
