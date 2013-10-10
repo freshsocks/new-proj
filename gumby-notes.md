@@ -1,3 +1,8 @@
+Gumby Framework : Notes
+=======================
+
+Gumby.css is loaded in the ``` <head> ``` of the main layout file. Use it in your HTML/jade with zero setup required.
+
 #### FreshStart tries to simplify the Gumby setup
 
 [Gumby](http://gumbyframework.com/) is a nice UI framework similar to Twitter's bootstrap. However, unlike bootstrap, its a pain in the gonads to [set up](http://gumbyframework.com/docs/). Gumby is very exsensible and flexible, as long as you have ruby ~1.9+ installed with sass, compass and modular-scale gems installed.
