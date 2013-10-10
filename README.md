@@ -10,13 +10,13 @@ You also want you project to be linked to "freshstart", so that every time it is
 ### Remotely create 
 
 ```
-curl -u 'stevefloat:flldlk1019' https://api.github.com/user/repos -d '{"name":"new-proj"}'
+curl -u 'stevefloat:PASS' https://api.github.com/user/repos -d '{"name":"new-proj"}'
 ```
 
 ### Start a new repo
 
 ```
-curl -u 'stevefloat:flldlk1019' https://api.github.com/user/repos -d '{"name":"new-proj"}'
+curl -u 'stevefloat:PASS' https://api.github.com/user/repos -d '{"name":"new-proj"}'
 cd ~/git
 git init new-proj
 cd new-proj
@@ -104,7 +104,7 @@ Errrg.... I think it might be the --rebase command.
 
 
 ```
-curl -u 'stevefloat:flldlk1019' https://api.github.com/user/repos -d '{"name":"new-proj"}'
+curl -u 'stevefloat:PASS' https://api.github.com/user/repos -d '{"name":"new-proj"}'
 cd ~/git
 git init new-proj
 cd new-proj
