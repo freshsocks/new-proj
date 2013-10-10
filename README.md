@@ -104,7 +104,7 @@ Errrg.... I think it might be the --rebase command.
 
 
 ```
-curl -u 'stevefloat:flldlk1019' https://api.github.com/user/repos -d '{"name":"new-proj"}'
+curl -u 'stevefloat:PASS' https://api.github.com/user/repos -d '{"name":"new-proj"}'
 cd ~/git
 git init new-proj
 cd new-proj
