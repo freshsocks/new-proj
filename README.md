@@ -45,4 +45,4 @@ cd .. && node app
 
 Gumby.css is loaded in the ``` <head> ``` of the main layout file. Use it in your HTML/jade with zero setup required.
 
-See (notes on Gumby)[gumby-notes.md] for more information on the complex web of dependencies and compiling that is the Gumby framework.
+See [notes on Gumby](gumby-notes.md) for more information on the complex web of dependencies and compiling that is the Gumby framework.
