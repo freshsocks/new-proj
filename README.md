@@ -3,8 +3,6 @@ Git Commands
 
 ## Cloning to a new project
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Suppose you always start from the same base app. This base app is maintained in a repo called "freshstart". Every project you start, you want it to start with the "freshstart" base app.
 
 You also want you project to be linked to "freshstart", so that every time it is updated, your new project gets the updates to it's base app as well.
@@ -35,31 +33,15 @@ git push origin master
 git config --global core.mergeoptions --no-edit
 ```
 
-### Set 
+### Some remote stuff
 
 ```
-git remote set-url origin --push --add user1@repo1
-git remote set-url origin --push --add user2@repo2
 git remote -v show
 ```
 ```
 git remote update
 ```
 
-
-<<<<<<< HEAD
-### Clone into specific folder
-
-```
-git clone https://github.com/stevefloat/freshstart new-proj
-```
--or-
-```
-git clone git://github.com/stevefloat/freshstart.git new-proj
-```
-
-
-git remote add upstream https://github.com/stevefloat/freshstart
 
 
 ## References
@@ -84,12 +66,4 @@ Future Apps
 
 * **Prolific** Like tumblr meets wordpress for art school kids.
 * **Shopaholic** An e-commerce app framework utilizing [stripe API](https://github.com/abh/node-stripe)
-=======
-See [notes on Gumby](gumby-notes.md) for more information on the complex web of dependencies and compiling that is the Gumby framework.
->>>>>>> a2bbc1aa66ea9eefc41bad192b6303cb33aa37ba
-=======
-See (notes)[notes/notes.md].
->>>>>>> cfa7b9c5b264fae5b7f7f604cd5c94c47766362f
-=======
-See [notes](notes/notes.md).
->>>>>>> e21a5270ae8ce302cf5e5a6247530dc500c4dc43
+
