@@ -56,6 +56,8 @@ git remote update
 
 * [more info on --rebase](http://gitready.com/intermediate/2009/01/31/intro-to-rebase.html) that could be helpful.
 
+* [.gitignore files](https://help.github.com/articles/ignoring-files)
+
 TODO
 ====
 
