@@ -86,3 +86,20 @@ It can be changed in the ```.git/config``` file, like so:
 ```
 
 ...which _should_ work. But I want to do this codically (is that a word?)
+
+### Ignoring the default README.md file
+
+When we are pulling new changes from the base app to our new project, it's going to also try to pull the README.md file. This is a problem because our README.md file is always going to be different in our new project, and that's the one we always want to keep. We never actually want the README.md from the base app.
+
+Actually, we're probably going to want to keep most the files that we customize in the new project, even when there's a new version of them in the base app.
+
+Ideally, we could make a list of files to ignore when we are making pull requests to ```git pull base master``` so that we never have an overwrite/merge issue.
+
+Files that should be excluded from pulls:
+* README.md
+* public/js/main.js
+* public/css/style.css
+* custom-compiled gumby css files
+* app.js
+
+> **NOTE** these files should all be pulled the first time that the base app repo is pulled. They should only be excluded after that, or realisticly, only after they have been edited in the new project.
