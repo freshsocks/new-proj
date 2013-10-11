@@ -52,6 +52,8 @@ I was able to make a commit to the base app _freshstart_, pull it into the _new-
 
 The only problem is that I wasn't able to pull the changes from _freshstart_ without getting the damn prompt again.
 
+### Pulling the base app without being prompted to write a merge commit message
+
 I edited the ```.git/config``` file directly to reflect the --no-edit config option.
 ```
 [core]
