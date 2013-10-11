@@ -3,6 +3,7 @@ Git Commands
 
 ## Cloning to a new project
 
+<<<<<<< HEAD
 Suppose you always start from the same base app. This base app is maintained in a repo called "freshstart". Every project you start, you want it to start with the "freshstart" base app.
 
 You also want you project to be linked to "freshstart", so that every time it is updated, your new project gets the updates to it's base app as well.
@@ -85,3 +86,6 @@ Future Apps
 =======
 See [notes on Gumby](gumby-notes.md) for more information on the complex web of dependencies and compiling that is the Gumby framework.
 >>>>>>> a2bbc1aa66ea9eefc41bad192b6303cb33aa37ba
+=======
+See (notes)[notes/notes.md].
+>>>>>>> cfa7b9c5b264fae5b7f7f604cd5c94c47766362f
