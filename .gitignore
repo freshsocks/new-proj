@@ -6,3 +6,4 @@ node_modules
 npm-debug.log
 public/bower_components
 public/.sass-cache
+README.md
