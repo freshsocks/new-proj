@@ -45,6 +45,7 @@ git remote update
 ```
 
 
+<<<<<<< HEAD
 ### Clone into specific folder
 
 ```
@@ -81,3 +82,6 @@ Future Apps
 
 * **Prolific** Like tumblr meets wordpress for art school kids.
 * **Shopaholic** An e-commerce app framework utilizing [stripe API](https://github.com/abh/node-stripe)
+=======
+See [notes on Gumby](gumby-notes.md) for more information on the complex web of dependencies and compiling that is the Gumby framework.
+>>>>>>> a2bbc1aa66ea9eefc41bad192b6303cb33aa37ba
